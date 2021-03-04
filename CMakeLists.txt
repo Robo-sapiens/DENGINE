@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(gay_engine)
+project(DENGINE)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
@@ -18,7 +18,6 @@ add_compile_options(
         -Werror
         -Wcast-align
 )
-
 
 add_subdirectory(modules)
 add_subdirectory(example)
