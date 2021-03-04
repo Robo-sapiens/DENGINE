@@ -1,0 +1,2 @@
+Checks: >
+  -*,clang-analyzer-*,google-*,-google-runtime-references

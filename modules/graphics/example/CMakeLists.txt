@@ -1,0 +1,2 @@
+add_executable(graphics_example graphics_example.cpp)
+target_link_libraries(graphics_example graphics)

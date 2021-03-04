@@ -1,0 +1,3 @@
+add_subdirectory(graphics)
+add_subdirectory(state_machine)
+add_subdirectory(network)
