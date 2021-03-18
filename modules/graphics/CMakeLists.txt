@@ -17,3 +17,7 @@ target_link_libraries(graphics PUBLIC
         )
 
 add_subdirectory(example)
+
+if (BUILD_TESTING)
+    add_subdirectory(test)
+endif (BUILD_TESTING)
